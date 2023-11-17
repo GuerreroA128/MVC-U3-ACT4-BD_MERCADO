@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 16-11-2023 a las 18:55:35
+-- Tiempo de generación: 17-11-2023 a las 20:10:42
 -- Versión del servidor: 10.1.28-MariaDB
 -- Versión de PHP: 5.6.32
 
@@ -87,25 +87,20 @@ INSERT INTO `productos_vendidos` (`id`, `id_producto`, `cantidad`, `id_venta`) V
 
 CREATE TABLE `ventas` (
   `id` bigint(20) UNSIGNED NOT NULL,
-  `idcliente` int(11) NOT NULL,
-  `idproducto` int(11) DEFAULT NULL,
-  `idfactura` int(11) NOT NULL,
-  `idproveedor` int(11) NOT NULL,
-  `nventas` int(11) NOT NULL,
-  `ncuenta` int(11) NOT NULL,
-  `ntarjeta` int(11) NOT NULL
+  `fecha` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `total` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Volcado de datos para la tabla `ventas`
 --
 
-INSERT INTO `ventas` (`id`, `idcliente`, `idproducto`, `idfactura`, `idproveedor`, `nventas`, `ncuenta`, `ntarjeta`) VALUES
-(1, 2147483647, 0, 0, 0, 0, 0, 0),
-(2, 2147483647, 50, 0, 0, 0, 0, 0),
-(3, 2147483647, 115, 0, 0, 0, 0, 0),
-(4, 2147483647, 115, 0, 0, 0, 0, 0),
-(5, 2147483647, 775, 0, 0, 0, 0, 0);
+INSERT INTO `ventas` (`id`, `fecha`, `total`) VALUES
+(1, '0000-00-00 00:00:00', 0),
+(2, '0000-00-00 00:00:00', 50),
+(3, '0000-00-00 00:00:00', 115),
+(4, '0000-00-00 00:00:00', 115),
+(5, '0000-00-00 00:00:00', 775);
 
 --
 -- Índices para tablas volcadas
