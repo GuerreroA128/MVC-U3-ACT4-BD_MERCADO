@@ -15,4 +15,4 @@ UIII Act 4 crud relacional varias tablas
 ![](https://github.com/GuerreroA128/MVC-U3-ACT4-BD_MERCADO/blob/main/ventas_pdo-master/img/img13.png)
 ![](https://github.com/GuerreroA128/MVC-U3-ACT4-BD_MERCADO/blob/main/ventas_pdo-master/img/img14.png)
 ![](https://github.com/GuerreroA128/MVC-U3-ACT4-BD_MERCADO/blob/main/ventas_pdo-master/img/img15.png)
-![](https://github.com/GuerreroA128/MVC-U3-ACT4-BD_MERCADO/blob/main/ventas_pdo-master/img/img16.png)**
+![](https://github.com/GuerreroA128/MVC-U3-ACT4-BD_MERCADO/blob/main/ventas_pdo-master/img/img16.png)
